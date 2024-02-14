@@ -1,14 +1,14 @@
-body {
-  padding: 5px 10px;
+* {
+  margin: 0;
+  padding: 0;
 }
-
 #background {
   background-image: url("./images/background.png");
 }
 
 #header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -107,6 +107,7 @@ nav {
   font-family: "Playfair display";
   font-weight: 500;
   text-align: center;
+  gap: 20px;
 }
 
 .foodContent {
@@ -169,7 +170,7 @@ nav {
 .subscriptions {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .subscriptionsFood {
@@ -211,6 +212,7 @@ nav {
   height: 48px;
   border-radius: 6px;
   background-color: #fa6039;
+  border: none;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 14px;
@@ -230,6 +232,11 @@ nav {
 
 .playfairDisplay {
   font-family: "Playfair Display";
+  font-weight: 500;
+}
+
+.dmSans {
+  font-family: "DM Sans";
   font-weight: 500;
 }
 
@@ -290,14 +297,87 @@ nav {
   text-align: center;
 }
 
+.podcastBackground {
+  background-color: #f9f9f7;
+  padding-top: 20px;
+}
+
+.container {
+  width: 1100px;
+  height: 839px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-grid {
+  padding-top: 20px;
+  border: 1px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  gap: 20px;
+}
+
+.grid-card-big {
+  background-color: #ffffff;
+  width: 550px;
+  border-radius: 12px;
+  border: 1px;
+}
+
+.grid-card-little {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px;
+}
+
+.grid-image {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.image-grid-col-2 {
+  grid-column: span 2;
+}
+
+.image-grid-row-2 {
+  grid-row: span 2;
+}
+
+.grid-card-big-text {
+  width: 482px;
+  height: 178px;
+  padding: 15px;
+}
+
+.grid-card-little-text {
+  height: 110px;
+  padding: 10px;
+}
+
+.contacts {
+  width: 170px;
+  text-align: left;
+}
+
+.clickUp {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
 #footer {
   display: flex;
+  border-top: 1px black solid;
 }
 
 .column {
   padding: 10px;
   width: 1440px;
-  height: 465px;
   background-color: #ffdfce;
   text-align: center;
 }
@@ -319,8 +399,10 @@ nav {
   align-items: center;
   font-family: "Inter";
   font-weight: 600;
+  gap: 20px;
 }
+
 #footerLogo {
-  width: 200px;
-  height: 200px;
+  width: 347px;
+  height: 400px;
 }
