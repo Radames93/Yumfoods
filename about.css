@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
 #background {
   background-image: url("./images/aboutUsContent.png");
 }
 
 #header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -19,7 +20,7 @@ nav {
 
 .items {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   font-family: "DM Sans";
   font-weight: 500;
@@ -66,6 +67,7 @@ nav {
   margin: auto;
   width: 80%;
   height: 578px;
+  margin-bottom: 100px;
 }
 
 .about-us-blog-grid {
@@ -79,6 +81,7 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 30px;
+  margin-bottom: 100px;
 }
 
 .about-us-podcast-grid {
@@ -92,6 +95,7 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-gap: 30px;
+  margin-bottom: 100px;
 }
 
 .grid-card-little {
@@ -126,14 +130,87 @@ nav {
   font-weight: 500;
 }
 
-.dmSans {
+.dmSans-500 {
   font-family: "DM Sans";
   font-weight: 500;
+}
+
+.dmSans-400 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .contacts {
   width: 170px;
   text-align: left;
+}
+
+.healthy-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 457px;
+  padding: 20px;
+  gap: 10px;
+}
+
+.healthy-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.contacts-container {
+  width: 311px;
+  height: 146px;
+}
+
+.contacts-box-small {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 139px;
+  height: 24px;
+  padding: 10px 0;
+}
+
+.contacts-box-medium {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 169px;
+  height: 24px;
+  padding: 10px 0;
+}
+
+.contacts-box-big {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  padding: 10px 0;
+}
+
+.location-container {
+  width: 267px;
+  height: 48px;
+}
+
+.healthy-button {
+  width: 210px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: #000000;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
 #footer {

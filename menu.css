@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 300px;
+  height: 56px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "DM Sans";
+  font-weight: 500;
+}
+
+.links {
+  color: black;
+}
+
+.popping-500 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #000000;
+}
+
+.dmSans-500 {
+  font-family: "DM Sans";
+  font-weight: 500;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-credentials {
+  width: 113px;
+  height: 48px;
+  padding: 22px 0px 22px 0px;
+  border-radius: 6px;
+  gap: 8px;
+}
+
+.menu-text {
+  color: #1e293b;
+  text-align: center;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.menu-buttons {
+  height: 48px;
+  gap: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.orange-button {
+  width: 170px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  background-color: #fa6039;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.grey-button {
+  width: 170px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  background-color: #d9d9d9;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.food-selection {
+  width: 80%;
+  height: 950px;
+  margin: 0 auto;
+}
+
+.food-court-orange {
+  width: 200px;
+  height: 46px;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px #fa6039 solid;
+  color: #fa6039;
+  background-color: #ffffff;
+}
+
+.food-court-grey {
+  width: 200px;
+  height: 46px;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px #c4c4c4 solid;
+  color: #c4c4c4;
+  background-color: #ffffff;
+}
+
+.food-section {
+  border: 1px #e0e0e0 solid;
+}
+
+.days-orange {
+  width: 109px;
+  height: 32px;
+  padding: 4px 16px 4px 16px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #fa6039;
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.days-black {
+  width: 109px;
+  height: 32px;
+  padding: 4px 16px 4px 16px;
+  gap: 10px;
+  outline: 0;
+  border-width: 0;
+  background-color: #ffffff;
+}
+
+.order-text {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.food-container {
+  width: 90%;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Playfair display";
+  font-weight: 500;
+  text-align: center;
+  gap: 20px;
+}
+
+.foodContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foodCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 268px;
+  height: 496px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.food {
+  width: 88px;
+  height: 116px;
+}
+
+.foodCardText {
+  width: 200px;
+  height: 32px;
+  font-family: "Intel";
+  font-weight: 400;
+  font-size: 21px;
+  color: #334155;
+}
+
+.foodButton {
+  width: 280px;
+  height: 48px;
+  background-color: #fa6039;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14;
+  border: none;
+  border-radius: 6px;
+}
+
+.quantityCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 213px;
+  height: 50px;
+}
+
+.AddToCartButton {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fa6039;
+  color: white;
+}
+
+.buttonValue {
+  width: 23px;
+  height: 49px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
+
+.input-group {
+  width: 115px;
+  height: 32px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#increment {
+  width: 32px;
+  height: 32px;
+  border: 1px #363238 solid;
+}
+
+#decrement {
+  width: 32px;
+  height: 32px;
+  border: 1px #363238 solid;
+}
+
+#input {
+  width: 60px;
+  border: 1px #e0e0e0 solid;
+  text-align: center;
+}
+
+.scroll-container {
+  height: 465px;
+  overflow-y: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 15px;
+  background: #f2f2f2;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #fa6039;
+  border-radius: calc(15px / 2);
+}
