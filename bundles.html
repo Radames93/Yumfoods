@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="menu.css" />
+    <title>Yumfoods</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img id="logo" src="./images/logo.png" alt="logo" />
+      <nav class="items">
+        <img src="./images/cart.png" alt="cart" />
+        <div class="content user-credentials">
+          <img src="./images/user.png" alt="user" />
+          <p class="poppins-500" style="font-size: 14px">Username</p>
+        </div>
+        <a href="help.html" class="links poppins-500" style="font-size: 18px"
+          >Help?</a
+        >
+      </nav>
+    </header>
+    <div>
+      <p class="poppins-500 menu-text">Menu</p>
+      <div class="content menu-buttons">
+        <a href="yumNow.html">
+          <input
+            class="grey-button poppins-500"
+            type="button"
+            value="Yum now"
+          />
+        </a>
+        <a href="yumWhenever.html">
+          <input
+            class="grey-button poppins-500"
+            type="button"
+            value="Yum whenver"
+          />
+        </a>
+        <input class="grey-button poppins-500" type="button" value="Extras" />
+        <a href="bundles.html">
+          <input
+            class="orange-button poppins-500"
+            type="button"
+            value="Bundles"
+          />
+        </a>
+      </div>
+      <div class="food-selection">
+        <div class="content menu-buttons" style="justify-content: flex-start">
+          <input
+            class="food-court-orange poppins-500"
+            type="button"
+            value="Lunch"
+          />
+          <input
+            class="food-court-grey poppins-500"
+            type="button"
+            value="Dinner"
+          />
+          <input
+            class="food-court-grey poppins-500"
+            type="button"
+            value="Lunch & Dinner"
+          />
+          <input
+            class="food-court-grey poppins-500"
+            type="button"
+            value="Food court 3"
+          />
+        </div>
+        <div class="food-section">
+          <p class="whenever-order-text poppins-500">Bundles</p>
+          <div class="subscriptionsContent">
+            <div class="SubscriptionContentBox">
+              <img
+                class="subscriptionsFood"
+                src="./images/subscriptions.png"
+                alt="subscriptionsFood"
+              />
+              <div class="subscrptionsBox">
+                <div class="subscriptions">
+                  <div class="content subscriptionsCard" style="padding: 0">
+                    <p
+                      style="
+                        font-family: Inter;
+                        font-weight: 400;
+                        font-size: 18px;
+                      "
+                    >
+                      All Inclusive - 1 person/ vecka
+                    </p>
+                    <p
+                      style="
+                        font-family: Inter;
+                        font-weight: 700;
+                        font-size: 18px;
+                        white-space: nowrap;
+                      "
+                    >
+                      69 kr
+                    </p>
+                  </div>
+                  <p
+                    style="
+                      font-family: Inter;
+                      font-weight: 400;
+                      font-size: 13px;
+                    "
+                  >
+                    IN STOCK
+                  </p>
+                  <div class="quantity-card-bundle" style="padding: 0">
+                    <div class="input-group">
+                      <button id="decrement">-</button>
+                      <input id="input" value="0" />
+                      <button id="increment">+</button>
+                    </div>
+                    <button class="AddToCartButton" type="button">
+                      <span class="buttonValue"> + </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="SubscriptionContentBox">
+              <img
+                class="subscriptionsFood"
+                src="./images/subscriptions.png"
+                alt="subscriptionsFood"
+              />
+              <div class="subscrptionsBox">
+                <div class="subscriptions">
+                  <div class="content subscriptionsCard" style="padding: 0">
+                    <p
+                      style="
+                        font-family: Inter;
+                        font-weight: 400;
+                        font-size: 18px;
+                      "
+                    >
+                      All Inclusive - 1 person/ vecka
+                    </p>
+                    <p
+                      style="
+                        font-family: Inter;
+                        font-weight: 700;
+                        font-size: 18px;
+                        white-space: nowrap;
+                      "
+                    >
+                      69 kr
+                    </p>
+                  </div>
+                  <p
+                    style="
+                      font-family: Inter;
+                      font-weight: 400;
+                      font-size: 13px;
+                    "
+                  >
+                    IN STOCK
+                  </p>
+                  <div class="quantity-card-bundle" style="padding: 0">
+                    <div class="input-group">
+                      <button id="decrement">-</button>
+                      <input id="input" value="0" />
+                      <button id="increment">+</button>
+                    </div>
+                    <button class="AddToCartButton" type="button">
+                      <span class="buttonValue"> + </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="SubscriptionContentBox" style="align-self: flex-start">
+              <img
+                class="subscriptionsFood"
+                src="./images/subscriptions.png"
+                alt="subscriptionsFood"
+              />
+              <div class="subscrptionsBox">
+                <div class="subscriptions">
+                  <div class="content subscriptionsCard" style="padding: 0">
+                    <p
+                      style="
+                        font-family: Inter;
+                        font-weight: 400;
+                        font-size: 18px;
+                      "
+                    >
+                      All Inclusive - 1 person/ vecka
+                    </p>
+                    <p
+                      style="
+                        font-family: Inter;
+                        font-weight: 700;
+                        font-size: 18px;
+                        white-space: nowrap;
+                      "
+                    >
+                      69 kr
+                    </p>
+                  </div>
+                  <p
+                    style="
+                      font-family: Inter;
+                      font-weight: 400;
+                      font-size: 13px;
+                    "
+                  >
+                    IN STOCK
+                  </p>
+                  <div class="quantity-card-bundle" style="padding: 0">
+                    <div class="input-group">
+                      <button id="decrement">-</button>
+                      <input id="input" value="0" />
+                      <button id="increment">+</button>
+                    </div>
+                    <button class="AddToCartButton" type="button">
+                      <span class="buttonValue"> + </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Menu item-->
+      <div>
+        <p class="poppins-500 menu-text">Menu</p>
+        <div class="content menu-buttons">
+          <a href="yumNow.html">
+            <input
+              class="grey-button poppins-500"
+              type="button"
+              value="Yum now"
+            />
+          </a>
+          <a href="yumWhenever.html">
+            <input
+              class="grey-button poppins-500"
+              type="button"
+              value="Yum whenver"
+            />
+          </a>
+          <input class="grey-button poppins-500" type="button" value="Extras" />
+          <a href="bundles.html">
+            <input
+              class="orange-button poppins-500"
+              type="button"
+              value="Bundles"
+            />
+          </a>
+        </div>
+        <div class="menu-item-selection">
+          <p class="bundles-order-text">Bundles</p>
+          <div class="bundles-section">
+            <div class="menu-item-container">
+              <div
+                class="menu-item-container-box"
+                style="align-self: flex-start"
+              >
+                <img
+                  class="menu-item-image"
+                  src="./images/subscriptions.png"
+                  alt="image"
+                />
+                <div class="menu-item-box">
+                  <div class="subscriptions">
+                    <div class="content subscriptionsCard" style="padding: 0">
+                      <p
+                        style="
+                          font-family: Inter;
+                          font-weight: 400;
+                          font-size: 18px;
+                        "
+                      >
+                        All Inclusive - 1 person/ vecka
+                      </p>
+                      <p
+                        style="
+                          font-family: Inter;
+                          font-weight: 700;
+                          font-size: 18px;
+                          white-space: nowrap;
+                        "
+                      >
+                        69 kr
+                      </p>
+                    </div>
+                    <p
+                      style="
+                        font-family: Inter;
+                        font-weight: 400;
+                        font-size: 12px;
+                      "
+                    >
+                      IN STOCK
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-item-section">
+                <p class="ingredients-text">Ingredients:</p>
+                <div class="ingredients-box">
+                  <p>
+                    Risnudlar med räkor, ägg, fläsk, choja, kål.Nudlar gillar
+                    eller provar något helt nytt, vi vill att dina smaklökar ska
+                    vara dina glada knoppar.
+                  </p>
+                </div>
+                <div class="drinks-container">
+                  <div class="drinks-box">
+                    <p class="poppins-600" style="size: 14px">Dryck?</p>
+                    <p class="poppins-600" style="size: 14px">Valfritt</p>
+                  </div>
+                  <div class="drinks-box">
+                    <label class="option poppins-400" style="font-size: 14px"
+                      >Pepsi 33 cl
+                      <input type="checkbox" />
+                      <span class="customcheckbox"></span>
+                    </label>
+                    <p class="poppins-400" style="font-size: 14px">
+                      + 20,00 kr
+                    </p>
+                  </div>
+                  <div class="drinks-box">
+                    <label class="option poppins-400" style="font-size: 14px"
+                      >Pepsi 33 cl
+                      <input type="checkbox" checked />
+                      <span class="customcheckbox"></span>
+                    </label>
+                    <p class="poppins-400" style="font-size: 14px">
+                      + 20,00 kr
+                    </p>
+                  </div>
+                </div>
+                <p class="ingredients-text">Allergies:</p>
+                <div class="ingredients-box">
+                  <p>
+                    Please check all ingredients, if you are allergic to
+                    something. Refrain from ordering.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-order-container">
+              <div class="menu-item-selection">
+                <div class="order-container">
+                  <div class="menu-order-box">
+                    <p class="poppins-600" style="font-size: 16px">
+                      How many total orders?
+                    </p>
+                    <div
+                      class="quantityCard"
+                      style="padding: 0; justify-content: flex-end"
+                    >
+                      <div class="input-group">
+                        <button id="decrement">-</button>
+                        <input id="input" value="0" />
+                        <button id="increment">+</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-order-box">
+                    <div class="text-box">
+                      <p class="poppins-600" style="font-size: 16px">
+                        This item will be available for following days. Select
+                        the day you want it to be delivered.
+                      </p>
+                    </div>
+                    <button class="add-button" type="button">
+                      <div class="foodContent" style="width: 50px">
+                        <span
+                          class="roboto-500"
+                          style="font-size: 13px; color: white"
+                          >Add</span
+                        >
+                        <img src="./images/calender.png" alt="calendar" />
+                      </div>
+                    </button>
+                  </div>
+                  <div class="menu-order-box">
+                    <div class="text-box">
+                      <p class="poppins-600" style="font-size: 16px">
+                        Number of orders:
+                      </p>
+                    </div>
+                  </div>
+                  <div class="order-box-menu">
+                    <p class="poppins-600" style="font-size: 16px">Monday</p>
+                    <label class="option poppins-400" style="font-size: 14px"
+                      >10-12 pm
+                      <input type="checkbox" />
+                      <span class="customcheckbox"></span>
+                    </label>
+                    <label class="option poppins-400" style="font-size: 14px"
+                      >12-02 pm
+                      <input type="checkbox" />
+                      <span class="customcheckbox"></span>
+                    </label>
+                    <div
+                      class="quantityCard"
+                      style="padding: 0; justify-content: flex-end"
+                    >
+                      <div class="input-group">
+                        <button id="decrement">-</button>
+                        <input id="input" value="20" />
+                        <button id="increment">+</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="order-box-menu">
+                    <p class="poppins-600" style="font-size: 16px">Monday</p>
+                    <label class="option poppins-400" style="font-size: 14px"
+                      >10-12 pm
+                      <input type="checkbox" />
+                      <span class="customcheckbox"></span>
+                    </label>
+                    <label class="option poppins-400" style="font-size: 14px"
+                      >12-02 pm
+                      <input type="checkbox" />
+                      <span class="customcheckbox"></span>
+                    </label>
+                    <div
+                      class="quantityCard"
+                      style="padding: 0; justify-content: flex-end"
+                    >
+                      <div class="input-group">
+                        <button id="decrement">-</button>
+                        <input id="input" value="20" />
+                        <button id="increment">+</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="order-box-menu" style="width: 100%">
+                    <input
+                      class="order-button-grey"
+                      type="button"
+                      value="Tillbaka"
+                    />
+                    <input
+                      class="order-button-orange"
+                      type="button"
+                      value="Lägg till i varukorg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

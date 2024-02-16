@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="menu.css" />
+    <title>Yumfoods</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img id="logo" src="./images/logo.png" alt="logo" />
+      <nav class="items">
+        <img src="./images/cart.png" alt="cart" />
+        <div class="content user-credentials">
+          <img src="./images/user.png" alt="user" />
+          <p class="poppins-500" style="font-size: 14px">Username</p>
+        </div>
+        <a href="help.html" class="links poppins-500" style="font-size: 18px"
+          >Help?</a
+        >
+      </nav>
+    </header>
+    <div>
+      <p class="poppins-500 menu-text">Menu</p>
+      <div class="content menu-buttons">
+        <a href="yumNow.html">
+          <input
+            class="grey-button poppins-500"
+            type="button"
+            value="Yum now"
+          />
+        </a>
+        <a href="yumWhenever.html">
+          <input
+            class="orange-button poppins-500"
+            type="button"
+            value="Yum whenver"
+          />
+        </a>
+        <input class="grey-button poppins-500" type="button" value="Extras" />
+        <a href="bundles.html">
+          <input
+            class="grey-button poppins-500"
+            type="button"
+            value="Bundles"
+          />
+        </a>
+      </div>
+      <div class="food-selection">
+        <p class="whenever-order-text poppins-500">Yum whenever</p>
+        <div class="offer">
+          <div class="scroll-container">
+            <div class="foodContent" style="gap: 15px">
+              <div class="foodCard">
+                <img class="food" src="images/food.png" alt="food" />
+                <h3
+                  style="
+                    font-family: Intel;
+                    font-weight: 600;
+                    font-size: 22px;
+                    color: #0f172a;
+                  "
+                >
+                  Food item 1
+                </h3>
+                <div class="foodCardText">
+                  <p>Chicken Karma</p>
+                </div>
+                <div class="foodCardText">
+                  <p>69kr</p>
+                </div>
+                <div class="quantityCard" style="padding: 0">
+                  <div class="input-group">
+                    <button id="decrement">-</button>
+                    <input id="input" value="0" />
+                    <button id="increment">+</button>
+                  </div>
+                  <button class="AddToCartButton" type="button">
+                    <span class="buttonValue"> + </span>
+                  </button>
+                </div>
+              </div>
+              <div class="foodCard">
+                <img class="food" src="images/food.png" alt="food" />
+                <h3
+                  style="
+                    font-family: Intel;
+                    font-weight: 600;
+                    font-size: 22px;
+                    color: #0f172a;
+                  "
+                >
+                  Food item 1
+                </h3>
+                <div class="foodCardText">
+                  <p>Chicken Karma</p>
+                </div>
+                <div class="foodCardText">
+                  <p>69kr</p>
+                </div>
+                <div class="quantityCard" style="padding: 0">
+                  <div class="input-group">
+                    <button id="decrement">-</button>
+                    <input id="input" value="0" />
+                    <button id="increment">+</button>
+                  </div>
+                  <button class="AddToCartButton" type="button">
+                    <span class="buttonValue"> + </span>
+                  </button>
+                </div>
+              </div>
+              <div class="foodCard">
+                <img class="food" src="images/food.png" alt="food" />
+                <h3
+                  style="
+                    font-family: Intel;
+                    font-weight: 600;
+                    font-size: 22px;
+                    color: #0f172a;
+                  "
+                >
+                  Food item 1
+                </h3>
+                <div class="foodCardText">
+                  <p>Chicken Karma</p>
+                </div>
+                <div class="foodCardText">
+                  <p>69kr</p>
+                </div>
+                <div class="quantityCard" style="padding: 0">
+                  <div class="input-group">
+                    <button id="decrement">-</button>
+                    <input id="input" value="0" />
+                    <button id="increment">+</button>
+                  </div>
+                  <button class="AddToCartButton" type="button">
+                    <span class="buttonValue"> + </span>
+                  </button>
+                </div>
+              </div>
+              <div class="foodCard">
+                <img class="food" src="images/food.png" alt="food" />
+                <h3
+                  style="
+                    font-family: Intel;
+                    font-weight: 600;
+                    font-size: 22px;
+                    color: #0f172a;
+                  "
+                >
+                  Food item 1
+                </h3>
+                <div class="foodCardText">
+                  <p>Chicken Karma</p>
+                </div>
+                <div class="foodCardText">
+                  <p>69kr</p>
+                </div>
+                <div class="quantityCard" style="padding: 0">
+                  <div class="input-group">
+                    <button id="decrement">-</button>
+                    <input id="input" value="0" />
+                    <button id="increment">+</button>
+                  </div>
+                  <button class="AddToCartButton" type="button">
+                    <span class="buttonValue"> + </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
