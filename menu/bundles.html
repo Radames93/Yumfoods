@@ -14,11 +14,11 @@
   </head>
   <body>
     <header id="header">
-      <img id="logo" src="./images/logo.png" alt="logo" />
+      <img id="logo" src="../images/logo.png" alt="logo" />
       <nav class="items">
-        <img src="./images/cart.png" alt="cart" />
+        <img src="../images/cart.png" alt="cart" />
         <div class="content user-credentials">
-          <img src="./images/user.png" alt="user" />
+          <img src="../images/user.png" alt="user" />
           <p class="poppins-500" style="font-size: 14px">Username</p>
         </div>
         <a href="help.html" class="links poppins-500" style="font-size: 18px"
@@ -81,7 +81,7 @@
             <div class="SubscriptionContentBox">
               <img
                 class="subscriptionsFood"
-                src="./images/subscriptions.png"
+                src="../images/subscriptions.png"
                 alt="subscriptionsFood"
               />
               <div class="subscrptionsBox">
@@ -132,7 +132,7 @@
             <div class="SubscriptionContentBox">
               <img
                 class="subscriptionsFood"
-                src="./images/subscriptions.png"
+                src="../images/subscriptions.png"
                 alt="subscriptionsFood"
               />
               <div class="subscrptionsBox">
@@ -183,7 +183,7 @@
             <div class="SubscriptionContentBox" style="align-self: flex-start">
               <img
                 class="subscriptionsFood"
-                src="./images/subscriptions.png"
+                src="../images/subscriptions.png"
                 alt="subscriptionsFood"
               />
               <div class="subscrptionsBox">
@@ -262,7 +262,7 @@
           </a>
         </div>
         <div class="menu-item-selection">
-          <p class="bundles-order-text">Bundles</p>
+          <p class="bundles-order-text">Menu item</p>
           <div class="bundles-section">
             <div class="menu-item-container">
               <div
@@ -271,7 +271,7 @@
               >
                 <img
                   class="menu-item-image"
-                  src="./images/subscriptions.png"
+                  src="../images/subscriptions.png"
                   alt="image"
                 />
                 <div class="menu-item-box">
@@ -354,8 +354,8 @@
               </div>
             </div>
             <div class="menu-order-container">
-              <div class="menu-item-selection">
-                <div class="order-container">
+              <div class="menu-order-details-selection">
+                <div class="order-details-container">
                   <div class="menu-order-box">
                     <p class="poppins-600" style="font-size: 16px">
                       How many total orders?
@@ -379,18 +379,21 @@
                       </p>
                     </div>
                     <button class="add-button" type="button">
-                      <div class="foodContent" style="width: 50px">
+                      <div
+                        class="foodContent"
+                        style="width: 50px; margin: 0 auto"
+                      >
                         <span
                           class="roboto-500"
                           style="font-size: 13px; color: white"
                           >Add</span
                         >
-                        <img src="./images/calender.png" alt="calendar" />
+                        <img src="../images/calender.png" alt="calendar" />
                       </div>
                     </button>
                   </div>
                   <div class="menu-order-box">
-                    <div class="text-box">
+                    <div class="text-box" style="height: 0">
                       <p class="poppins-600" style="font-size: 16px">
                         Number of orders:
                       </p>
@@ -409,7 +412,7 @@
                       <span class="customcheckbox"></span>
                     </label>
                     <div
-                      class="quantityCard"
+                      class="hour-choice"
                       style="padding: 0; justify-content: flex-end"
                     >
                       <div class="input-group">
@@ -419,6 +422,9 @@
                       </div>
                     </div>
                   </div>
+                  <p class="poppins-400 order-limit-exceed">
+                    Order limit exceeded
+                  </p>
                   <div class="order-box-menu">
                     <p class="poppins-600" style="font-size: 16px">Monday</p>
                     <label class="option poppins-400" style="font-size: 14px"
@@ -432,7 +438,7 @@
                       <span class="customcheckbox"></span>
                     </label>
                     <div
-                      class="quantityCard"
+                      class="hour-choice"
                       style="padding: 0; justify-content: flex-end"
                     >
                       <div class="input-group">
@@ -442,19 +448,19 @@
                       </div>
                     </div>
                   </div>
-                  <div class="order-box-menu" style="width: 100%">
-                    <input
-                      class="order-button-grey"
-                      type="button"
-                      value="Tillbaka"
-                    />
-                    <input
-                      class="order-button-orange"
-                      type="button"
-                      value="Lägg till i varukorg"
-                    />
-                  </div>
                 </div>
+              </div>
+              <div class="order-box-menu">
+                <input
+                  class="order-button-grey"
+                  type="button"
+                  value="Tillbaka"
+                />
+                <input
+                  class="order-button-orange"
+                  type="button"
+                  value="Lägg till i varukorg"
+                />
               </div>
             </div>
           </div>

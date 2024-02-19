@@ -26,19 +26,19 @@ nav {
   color: black;
 }
 
-.popping-500 {
+.poppins-500 {
   font-family: "Poppins";
   font-weight: 500;
   color: #000000;
 }
 
-.popping-400 {
+.poppins-400 {
   font-family: "Poppins";
   font-weight: 400;
   color: #000000;
 }
 
-.popping-600 {
+.poppins-600 {
   font-family: "Poppins";
   font-weight: 600;
   line-height: 18px;
@@ -106,86 +106,11 @@ nav {
   font-size: 14px;
 }
 
-.food-selection {
-  width: 80%;
-  height: 800px;
-  margin: 0 auto;
-}
-
-.food-court-orange {
-  width: 200px;
-  height: 46px;
-  padding: 16px;
-  border-radius: 6px;
-  border: 1px #fa6039 solid;
-  color: #fa6039;
-  background-color: #ffffff;
-}
-
-.food-court-grey {
-  width: 200px;
-  height: 46px;
-  padding: 16px;
-  border-radius: 6px;
-  border: 1px #c4c4c4 solid;
-  color: #c4c4c4;
-  background-color: #ffffff;
-}
-
-.food-section {
-  border: 1px #e0e0e0 solid;
-}
-
-.days-orange {
-  width: 109px;
-  height: 32px;
-  padding: 4px 16px 4px 16px;
-  outline: 0;
-  border-width: 0 0 2px;
-  border-color: #fa6039;
-  gap: 10px;
-  background-color: #ffffff;
-}
-
-.days-black {
-  width: 109px;
-  height: 32px;
-  padding: 4px 16px 4px 16px;
-  gap: 10px;
-  outline: 0;
-  border-width: 0;
-  background-color: #ffffff;
-}
-
-.order-text {
-  padding: 10px;
-  font-size: 20px;
-}
-
-.whenever-order-text {
-  padding: 20px;
-  margin-left: 20px;
-  font-size: 32px;
-}
-
 .bundles-order-text {
   font-size: 32px;
   font-family: "Poppins";
   font-weight: 600;
   font-size: 24px;
-}
-
-.food-container {
-  width: 90%;
-}
-
-.offer {
-  display: flex;
-  flex-direction: column;
-  font-family: "Playfair display";
-  font-weight: 500;
-  text-align: center;
-  gap: 20px;
 }
 
 .foodContent {
@@ -194,66 +119,12 @@ nav {
   align-items: center;
 }
 
-.foodCard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  width: 268px;
-  height: 496px;
-  border-radius: 12px;
-  background-color: #ffffff;
-}
-
-.food {
-  width: 88px;
-  height: 116px;
-}
-
-.foodCardText {
-  width: 200px;
-  height: 32px;
-  font-family: "Intel";
-  font-weight: 400;
-  font-size: 21px;
-  color: #334155;
-}
-
-.foodButton {
-  width: 280px;
-  height: 48px;
-  background-color: #fa6039;
-  color: white;
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 14;
-  border: none;
-  border-radius: 6px;
-}
-
 .quantityCard {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 213px;
   height: 50px;
-}
-
-.AddToCartButton {
-  width: 60px;
-  height: 50px;
-  border-radius: 10px;
-  background-color: #fa6039;
-  color: white;
-}
-
-.buttonValue {
-  width: 23px;
-  height: 49px;
-  font-family: "Poppins";
-  font-weight: 400;
-  font-size: 32px;
-  text-align: center;
 }
 
 .input-group {
@@ -282,66 +153,10 @@ nav {
   text-align: center;
 }
 
-.scroll-container {
-  height: 465px;
-  overflow-y: scroll;
-}
-
-.scroll-container::-webkit-scrollbar {
-  width: 15px;
-  background: #f2f2f2;
-}
-
-.scroll-container::-webkit-scrollbar-track {
-  background: #f2f2f2;
-}
-
-.scroll-container::-webkit-scrollbar-thumb {
-  background: #fa6039;
-  border-radius: calc(15px / 2);
-}
-
-.subscriptionsContent {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-flow: column wrap;
-  height: 486px;
-}
-
-.SubscriptionContentBox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 470px;
-  height: 205px;
-  padding: 15px;
-  border-radius: 12px;
-  gap: 10px;
-}
-
 .subscriptions {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.subscriptionsFood {
-  width: 205px;
-  height: 119px;
-}
-
-.subscrptionsBox {
-  width: 294px;
-  height: 185px;
-  padding: 10px;
-  gap: 10px;
-}
-
-.subscriptionsCard {
-  width: 274px;
-  height: 63px;
-  gap: 10px;
 }
 
 .quantity-card-bundle {
@@ -352,30 +167,24 @@ nav {
   height: 50px;
 }
 
-.menu-item-selection {
-  width: 90%;
-  height: 800px;
-  margin: 0 auto;
-}
-
 .bundles-section {
-  border: 1px #e0e0e0 solid;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 10px;
 }
 
 .menu-item-container {
-  width: 600px;
-  height: 546px;
+  width: 633px;
+  height: 751px;
   border-radius: 6px;
   border: 1px #e0e0e0 solid;
+  margin-top: 20px;
 }
 
 .menu-item-container-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 609px;
   height: 145px;
@@ -384,8 +193,8 @@ nav {
 }
 
 .menu-item-image {
-  width: 205px;
-  height: 119px;
+  width: 111px;
+  height: 146px;
 }
 
 .menu-item-box {
@@ -401,9 +210,9 @@ nav {
 }
 
 .ingredients-text {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
@@ -412,6 +221,18 @@ nav {
 .ingredients-box {
   height: 72px;
   font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.review-box {
+  width: 161px;
+  height: 92px;
+  font-family: "Poppins";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -475,35 +296,38 @@ input[type="checkbox"] {
   transform: rotate(45deg);
 }
 
-.order-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  padding-top: 10px;
-}
-
-.order-box {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
 .menu-order-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .menu-order-container {
   width: 500px;
-  height: 400px;
+  height: 325px;
   border: 1px #e0e0e0 solid;
+  margin-top: 20px;
+}
+
+.order-details-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.menu-order-details-selection {
+  width: 90%;
+  height: 325px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .text-box {
-  width: 200px;
+  width: 250px;
   height: 50px;
   text-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .add-button {
@@ -519,6 +343,7 @@ input[type="checkbox"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .order-button-grey {
@@ -541,4 +366,27 @@ input[type="checkbox"] {
   background-color: #fa6039;
   color: #ffffff;
   border: none;
+}
+
+.minimum-order-text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.hour-choice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.order-limit-exceed {
+  text-align: right;
+  font-size: 10px;
+  color: #f70000;
+  gap: unset;
 }
