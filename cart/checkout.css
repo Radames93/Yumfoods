@@ -16,6 +16,13 @@
   text-align: center;
 }
 
+.poppins-400 {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #f70000;
+  font-size: 10px;
+}
+
 .poppins-500 {
   font-family: "Poppins";
   font-weight: 500;
@@ -24,7 +31,7 @@
 
 .poppins-600 {
   font-family: "Poppins";
-  font-weight: 560;
+  font-weight: 600;
   color: #000000;
 }
 
@@ -90,16 +97,24 @@
   border-radius: 4px;
 }
 
-.checkout-summary {
+.checkout-container {
   width: 90%;
+  height: 750px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.checkout-summary {
+  width: 48%;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   gap: 20px;
 }
 
 .checkout-card {
-  width: 50%;
   height: 250px;
 }
 
@@ -182,4 +197,43 @@
   align-items: center;
   width: 274px;
   height: 50px;
+}
+
+.total-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px #e0e0e0 solid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.order-box-menu {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.order-button-grey {
+  width: 220px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  gap: 5px;
+  background-color: #d9d9d9;
+  color: #64748b;
+  border: none;
+}
+
+.order-button-orange {
+  width: 220px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  gap: 5px;
+  background-color: #fa6039;
+  color: #ffffff;
+  border: none;
 }

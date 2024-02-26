@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poppins-500 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #000000;
+}
+
+.poppins-400 {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #000000;
+}
+
+.poppins-600 {
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+
+.poppins-700 {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+nav {
+  width: 300px;
+  height: 56px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "DM Sans";
+  font-weight: 500;
+}
+
+.links {
+  color: black;
+}
+
+.account-button {
+  width: 157px;
+  height: 49px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  gap: 5px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.view-more {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.order-container {
+  width: 561px;
+  height: 510px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.centered {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.order-box-menu {
+  width: 561px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.order-button-grey {
+  width: 267.5px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  border: none;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #d9d9d9;
+  color: #64748b;
+}
+
+.order-button-orange {
+  width: 267.5px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+  color: #c4c4c4;
+  border: none;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #fa6039;
+  color: #ffffff;
+}
+
+.subscriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subscriptionsCard {
+  width: 274px;
+  height: 63px;
+  gap: 10px;
+}
+
+.input-group {
+  width: 115px;
+  height: 32px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#increment {
+  width: 32px;
+  height: 32px;
+  border: 1px #363238 solid;
+}
+
+#decrement {
+  width: 32px;
+  height: 32px;
+  border: 1px #363238 solid;
+}
+
+#input {
+  width: 60px;
+  border: 1px #e0e0e0 solid;
+  text-align: center;
+}
+
+.AddToCartButton {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: white;
+}
+
+.buttonValue {
+  width: 23px;
+  height: 49px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
+
+.subscriptionsContent {
+  width: 500px;
+  height: 205px;
+  display: flex;
+  align-items: center;
+  border: 1px #e0e0e0 solid;
+}
+
+.SubscriptionContentBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 205px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.subscriptionsFood {
+  width: 205px;
+  height: 119px;
+}
+
+.subscrptionsBox {
+  width: 294px;
+  height: 170px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.subscriptionsCard {
+  width: 274px;
+  height: 63px;
+  gap: 10px;
+}
+
+.packedCard {
+  width: 274px;
+  height: 55px;
+  gap: 10px;
+}
+
+.quantity-card-bundle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+}
+
+.order-details {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.packed-food {
+  width: 121px;
+  height: 157px;
+}
+
+.packed-img-container {
+  width: 205px;
+  text-align: center;
+}

@@ -209,6 +209,12 @@ nav {
   margin: 0 auto;
 }
 
+.menu-item-selection {
+  width: 90%;
+  height: 800px;
+  margin: 0 auto;
+}
+
 .ingredients-text {
   font-family: "Poppins";
   font-size: 16px;
