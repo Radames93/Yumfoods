@@ -3,21 +3,183 @@
   padding: 0;
 }
 
-#header {
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.space {
+  flex: 1;
+  text-align: center;
+}
+
+.poppins-500 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #000000;
+}
+
+.poppins-600 {
+  font-family: "Poppins";
+  font-weight: 560;
+  color: #000000;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.first-item {
+  margin: auto;
+}
+
+.kassa-title {
+  width: 100px;
+  height: 48px;
+}
+
+.links {
+  width: 170px;
+  height: 48px;
+  text-align: end;
+}
+
+.add-more {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.empty {
+  width: 198px;
+}
+
+.discount-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.text-field {
+  width: 111px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
+.input-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 0 4px 4px 0;
+  background-color: #f27649;
+  color: white;
+  border-left: 1px #64748b solid;
+  border-width: 0 0 0 1px;
+}
+
+.input-container {
+  border: 1px #64748b solid;
+  border-radius: 4px;
+}
+
+.checkout-summary {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.checkout-card {
+  width: 50%;
+  height: 250px;
+}
+
+.modifier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #fa6039 solid;
+}
+
+.modify-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.order-card {
+  height: 164px;
+  border-radius: 6px;
+  padding: 20px;
+  border: 1px #e0e0e0 solid;
+  border-width: 0 1px 1px 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav {
-  width: 300px;
-  height: 56px;
+.vertically {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.items {
+.to-right {
+  text-align: right;
+  padding-right: 7px;
+}
+
+.close-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.total {
+  width: 147.77px;
+  height: 24px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  font-family: "DM Sans";
-  font-weight: 500;
+}
+
+.input-group {
+  width: 151px;
+  height: 32px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#increment {
+  width: 32px;
+  height: 32px;
+  border: 1px #363238 solid;
+}
+
+#decrement {
+  width: 32px;
+  height: 32px;
+  border: 1px #363238 solid;
+}
+
+#input {
+  width: 87px;
+  border: 1px #e0e0e0 solid;
+  text-align: center;
+}
+
+.quantity-card-bundle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 274px;
+  height: 50px;
 }
