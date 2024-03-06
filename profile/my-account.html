@@ -13,43 +13,189 @@
     />
   </head>
   <body>
-    <div class="sidebar">
-      <div class="sidebar-logo">
-        <img src="../images/sidebar-logo.png" alt="sidebar" />
+    <div id="outer-container">
+      <div id="sidebar">
+        <div class="sidebar-logo">
+          <img src="../images/sidebar-logo.png" alt="sidebar" />
+        </div>
+        <div class="links-container">
+          <div class="sidebar-links">
+            <img src="../images/home.png" alt="home" />
+            <a class="poppins-600" style="font-size: 14px">Hem</a>
+          </div>
+          <div class="sidebar-links">
+            <img src="../images/sidebar-user.png" alt="user" />
+            <a class="poppins-600" style="font-size: 14px; color: #fa6039"
+              >Mitt konto</a
+            >
+          </div>
+          <div class="sidebar-links">
+            <img src="../images/file.png" alt="group-orders" />
+            <a class="poppins-600" style="font-size: 14px">Group orders</a>
+          </div>
+          <div class="sidebar-links">
+            <img src="../images/promotions.png" alt="subscriptions" />
+            <a class="poppins-600" style="font-size: 14px">Subscriptions</a>
+          </div>
+          <div class="sidebar-links">
+            <img src="../images/promotions.png" alt="subscriptions" />
+            <a class="poppins-600" style="font-size: 14px">Offers</a>
+          </div>
+        </div>
+        <img src="../images/flag.png" alt="flag" />
+        <div class="line"></div>
+        <div class="notifications">
+          <img src="../images/notifications.png" alt="notifications" />
+          <img
+            src="../images/log-out.png"
+            alt="log-out"
+            style="align-self: flex-start"
+          />
+        </div>
       </div>
-      <div class="links-container">
-        <div class="sidebar-links">
-          <img src="../images/home.png" alt="home" />
-          <a class="poppins-600" style="font-size: 14px">Hem</a>
+      <div id="content">
+        <div class="account-container">
+          <header id="header">
+            <div class="my-account-content">
+              <p class="poppins-400" style="color: #fa6039; font-size: 14px">
+                Hem
+              </p>
+              <p class="poppins-400" style="color: #64748b; font-size: 14px">
+                My account
+              </p>
+            </div>
+            <nav class="items">
+              <img src="../images/empty-cart.png" alt="cart" />
+              <div class="content user-credentials">
+                <img src="../images/user.png" alt="user" />
+                <p class="poppins-500" style="font-size: 14px">AB bolag</p>
+              </div>
+            </nav>
+          </header>
+          <div class="title-container">
+            <h1 class="poppins-500" style="font-size: 24px">My account</h1>
+          </div>
+          <div class="account-navbar">
+            <button class="navbar-button-orange poppins-600">Detaljer</button>
+            <button class="navbar-button-grey poppins-600">
+              Mina beställningar
+            </button>
+            <button class="navbar-button-grey poppins-600">Group</button>
+            <button class="navbar-button-grey poppins-600">Employees</button>
+          </div>
+          <div class="account-info-container">
+            <div class="account-info-box">
+              <div class="account-info-container">
+                <input
+                  class="account-info-input poppins-500"
+                  style="font-size: 12px"
+                  type="text"
+                  value="First name"
+                />
+                <input
+                  class="account-info-input poppins-500"
+                  style="font-size: 12px"
+                  type="text"
+                  value="Last name"
+                />
+              </div>
+              <div class="account-info-container">
+                <input
+                  class="account-info-input poppins-500"
+                  style="font-size: 12px"
+                  type="text"
+                  value="Email"
+                />
+                <select
+                  class="account-info-select poppins-500"
+                  style="font-size: 12px"
+                >
+                  <option>Sweden</option>
+                </select>
+              </div>
+              <div class="account-flex-column">
+                <input
+                  class="account-info-input-image poppins-500"
+                  style="font-size: 12px"
+                  type="password"
+                  value="Password"
+                />
+                <input
+                  class="account-tel-input poppins-500"
+                  style="font-size: 12px"
+                  type="tel"
+                  value="+ 46         Phone number"
+                />
+              </div>
+              <div class="title-container">
+                <h1 class="poppins-500" style="font-size: 24px">
+                  Company information
+                </h1>
+              </div>
+              <div class="account-flex-column">
+                <div>
+                  <p
+                    class="poppins-600"
+                    style="font-size: 14px; color: #1e293b"
+                  >
+                    Company name
+                  </p>
+                  <input
+                    class="account-info-input poppins-400"
+                    style="font-size: 14px; color: #64748b"
+                    type="text"
+                    value="Ericsson"
+                  />
+                </div>
+                <div>
+                  <p
+                    class="poppins-600"
+                    style="font-size: 14px; color: #1e293b"
+                  >
+                    Organisation number
+                  </p>
+                  <input
+                    class="account-info-input poppins-400"
+                    style="font-size: 14px; color: #64748b"
+                    type="text"
+                    value="12312413435"
+                  />
+                </div>
+              </div>
+              <div class="account-buttons-container">
+                <button class="end-button-grey poppins-600">Logga ut</button>
+                <button class="end-button-grey poppins-600">
+                  Inaktivera konto
+                </button>
+                <button class="end-button-orange poppins-600">
+                  Spara ändringar
+                </button>
+              </div>
+            </div>
+            <div class="account-picture-box">
+              <div class="profile-picture-box">
+                <div class="image-container account-flex-column">
+                  <img src="../images/Avatar.png" alt="" />
+                  <p
+                    class="poppins-400"
+                    style="font-size: 18px; text-align: center; width: 100%"
+                  >
+                    Ella Olofsson
+                  </p>
+                  <div class="choose-picture-container">
+                    <div class="browse-box">
+                      <button class="browse-button">Browse</button>
+                      <p class="picture-text poppins-400">Profile photo.png</p>
+                    </div>
+                    <button class="upload-button">
+                      <img src="../images/upload.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="sidebar-links">
-          <img src="../images/sidebar-user.png" alt="user" />
-          <a class="poppins-600" style="font-size: 14px; color: #fa6039"
-            >Mitt konto</a
-          >
-        </div>
-        <div class="sidebar-links">
-          <img src="../images/file.png" alt="group-orders" />
-          <a class="poppins-600" style="font-size: 14px">Group orders</a>
-        </div>
-        <div class="sidebar-links">
-          <img src="../images/promotions.png" alt="subscriptions" />
-          <a class="poppins-600" style="font-size: 14px">Subscriptions</a>
-        </div>
-        <div class="sidebar-links">
-          <img src="../images/promotions.png" alt="subscriptions" />
-          <a class="poppins-600" style="font-size: 14px">Offers</a>
-        </div>
-      </div>
-      <img src="../images/flag.png" alt="flag" />
-      <div class="line"></div>
-      <div class="notifications">
-        <img src="../images/notifications.png" alt="notifications" />
-        <img
-          src="../images/log-out.png"
-          alt="log-out"
-          style="align-self: flex-start"
-        />
       </div>
     </div>
   </body>
