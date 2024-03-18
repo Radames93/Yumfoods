@@ -1,0 +1,630 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 300px;
+  height: 56px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "DM Sans";
+  font-weight: 500;
+}
+
+.links {
+  color: black;
+}
+
+.poppins-500 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #000000;
+}
+
+.poppins-400 {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #000000;
+}
+
+.poppins-600 {
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+
+.roboto-500 {
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.dmSans-500 {
+  font-family: "DM Sans";
+  font-weight: 500;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-credentials {
+  width: 113px;
+  height: 48px;
+  padding: 22px 0px 22px 0px;
+  border-radius: 6px;
+  gap: 8px;
+}
+
+.menu-text {
+  color: #1e293b;
+  text-align: center;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+
+.menu-buttons {
+  height: 48px;
+  gap: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.orange-button {
+  width: 170px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  background-color: #fa6039;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.grey-button {
+  width: 170px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  background-color: #d9d9d9;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.food-selection {
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.food-court-orange {
+  width: 200px;
+  height: 46px;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px #fa6039 solid;
+  color: #fa6039;
+  background-color: #ffffff;
+}
+
+.food-court-grey {
+  width: 200px;
+  height: 46px;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px #c4c4c4 solid;
+  color: #c4c4c4;
+  background-color: #ffffff;
+}
+
+.food-section {
+  border: 1px #e0e0e0 solid;
+}
+
+.days-orange {
+  width: 109px;
+  height: 32px;
+  padding: 4px 16px 4px 16px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #fa6039;
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.days-black {
+  width: 109px;
+  height: 32px;
+  padding: 4px 16px 4px 16px;
+  gap: 10px;
+  outline: 0;
+  border-width: 0;
+  background-color: #ffffff;
+}
+
+.order-text {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.whenever-order-text {
+  padding: 20px;
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+.bundles-order-text {
+  font-size: 32px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.food-container {
+  width: 90%;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Playfair display";
+  font-weight: 500;
+  text-align: center;
+  gap: 20px;
+}
+
+.foodContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foodCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 268px;
+  height: 496px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.food {
+  width: 88px;
+  height: 116px;
+}
+
+.foodCardText {
+  width: 200px;
+  height: 32px;
+  font-family: "Intel";
+  font-weight: 400;
+  font-size: 21px;
+  color: #334155;
+}
+
+.foodButton {
+  width: 280px;
+  height: 48px;
+  background-color: #fa6039;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14;
+  border: none;
+  border-radius: 6px;
+}
+
+.quantityCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 213px;
+  height: 50px;
+}
+
+.AddToCartButton {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fa6039;
+  color: white;
+}
+
+.buttonValue {
+  width: 23px;
+  height: 49px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
+
+.input-group {
+  width: 115px;
+  height: 32px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#increment {
+  width: 32px;
+  height: 32px;
+  border: 1px #363238 solid;
+}
+
+#decrement {
+  width: 32px;
+  height: 32px;
+  border: 1px #363238 solid;
+}
+
+#input {
+  width: 60px;
+  border: 1px #e0e0e0 solid;
+  text-align: center;
+}
+
+.scroll-container {
+  height: 465px;
+  overflow-y: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 15px;
+  background: #f2f2f2;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #fa6039;
+  border-radius: calc(15px / 2);
+}
+
+.subscriptionsContent {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 486px;
+}
+
+.SubscriptionContentBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 470px;
+  height: 205px;
+  padding: 15px;
+  border-radius: 12px;
+  gap: 10px;
+}
+
+.subscriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subscriptionsFood {
+  width: 205px;
+  height: 119px;
+}
+
+.subscrptionsBox {
+  width: 294px;
+  height: 185px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.subscriptionsCard {
+  width: 274px;
+  height: 63px;
+  gap: 10px;
+}
+
+.quantity-card-bundle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 274px;
+  height: 50px;
+}
+
+.menu-item-selection {
+  width: 90%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.bundles-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.menu-item-container {
+  width: 600px;
+  height: 546px;
+  border-radius: 6px;
+  border: 1px #e0e0e0 solid;
+  margin-top: 20px;
+}
+
+.menu-item-container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 609px;
+  height: 145px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.menu-item-image {
+  width: 205px;
+  height: 119px;
+}
+
+.menu-item-box {
+  width: 294px;
+  height: 125px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.menu-item-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ingredients-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ingredients-box {
+  height: 72px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.drinks-container {
+  height: 97px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 30px 0;
+}
+
+.drinks-box {
+  height: 97px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+.option {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.customcheckbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #fa6039;
+}
+.option input:checked ~ .customcheckbox {
+  background-color: #fa6039;
+}
+.customcheckbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.option input:checked ~ .customcheckbox:after {
+  display: block;
+}
+.option .customcheckbox:after {
+  left: 5px;
+  bottom: 3px;
+  width: 4px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.order-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.order-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-order-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.menu-order-container {
+  width: 500px;
+  height: 325px;
+  border: 1px #e0e0e0 solid;
+  margin-top: 20px;
+}
+
+.order-details-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.menu-order-details-selection {
+  width: 90%;
+  height: 325px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.text-box {
+  width: 250px;
+  height: 50px;
+  text-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  width: 115px;
+  height: 32px;
+  padding: 5px 8px 6px 8px;
+  border-radius: 4px;
+  background-color: #fa6039;
+  border: none;
+}
+
+.order-box-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.order-button-grey {
+  width: 220px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  gap: 5px;
+  background-color: #d9d9d9;
+  color: #64748b;
+  border: none;
+}
+
+.order-button-orange {
+  width: 220px;
+  height: 48px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 6px;
+  gap: 5px;
+  background-color: #fa6039;
+  color: #ffffff;
+  border: none;
+}
+
+.minimum-order-text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.hour-choice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.order-limit-exceed {
+  text-align: right;
+  font-size: 10px;
+  color: #f70000;
+  gap: unset;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* position fixed at top */
+  z-index: 1; /*  on top */
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #dddddd;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 80%;
+    margin: 15px auto;
+    padding: 20px;
+  }
+}
