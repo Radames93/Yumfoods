@@ -369,7 +369,7 @@ nav {
 .menu-item-container {
   width: 90%;
   margin: 0 auto;
-  height: 650px;
+  height: 500px;
   border-radius: 6px;
   margin-top: 20px;
 }
@@ -377,9 +377,8 @@ nav {
 .menu-item-holder {
   width: 90%;
   margin: 0 auto;
-  height: 480px;
+  height: 350px;
   border-radius: 6px;
-  border: 1px #e0e0e0 solid;
   margin-top: 20px;
 }
 
@@ -426,7 +425,8 @@ nav {
 }
 
 .ingredients-text {
-  font-family: Poppins;
+  font-family: "Poppins";
+  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0em;
@@ -566,24 +566,13 @@ input[type="checkbox"] {
 }
 
 .order-button-grey {
-  width: 180px;
+  width: 100%;
   height: 48px;
   padding: 11px 20px 11px 20px;
   border-radius: 6px;
   gap: 5px;
-  background-color: #d9d9d9;
-  color: #64748b;
-  border: none;
-}
-
-.order-button-orange {
-  width: 180px;
-  height: 48px;
-  padding: 11px 20px 11px 20px;
-  border-radius: 6px;
-  gap: 5px;
-  background-color: #fa6039;
-  color: #ffffff;
+  background-color: #c4c4c4;
+  color: #f2f2f2;
   border: none;
 }
 

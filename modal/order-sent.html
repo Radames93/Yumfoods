@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="select-menu.css" />
+    <link rel="stylesheet" href="order-sent.css" />
     <title>Yumfoods</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,68 +34,25 @@
       <div id="myModal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
-          <p class="paragraph bundles-order-text">Menu item</p>
           <div class="menu-item-container">
             <div class="menu-item-holder">
-              <div class="menu-item-container-box">
-                <img class="" src="../images/food.png" alt="food" />
-                <div class="menu-item-box">
-                  <div class="subscriptions">
-                    <p
-                      class="modal-paragraph poppins-600"
-                      style="font-size: 16px"
-                    >
-                      Chicken
-                    </p>
-                    <p
-                      class="modal-paragraph poppins-600"
-                      style="font-size: 16px"
-                    >
-                      Chicken Karma
-                    </p>
-                    <p
-                      class="modal-paragraph poppins-600"
-                      style="font-size: 16px"
-                    >
-                      300g/530 kcal
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <img src="../images/order.png" alt="order" />
               <div class="menu-item-section">
-                <div class="review-box">
-                  <p class="ingredients-text" style="margin: 0">Från 99 sek</p>
-                  <p>1 portion</p>
-                  <div id="header">
-                    <p>Reviews</p>
-                    <img src="../images/review.png" alt="review" />
-                  </div>
-                </div>
-                <p class="modal-paragraph poppins-600" style="font-size: 16px">
-                  Ingredienser:
-                </p>
-                <p class="modal-paragraph ingredients-text">
-                  Risnudlar med räkor, ägg, fläsk, choja, kål.Nudlar gillar
-                  eller provar något helt nytt, vi vill att dina smaklökar ska
-                  vara dina glada knoppar.
-                </p>
-                <p class="modal-paragraph poppins-600" style="font-size: 16px">
-                  Allergier:
-                </p>
-                <p class="modal-paragraph ingredients-text">
-                  Kontrollera alla ingredienser om du är allergisk mot något.
+                <p
+                  class="ingredients-text"
+                  style="margin: 0; text-align: center"
+                >
+                  Your order is successfully sent
                 </p>
               </div>
-            </div>
-            <div class="order-box-menu">
-              <input class="order-button-grey" type="button" value="Tillbaka" />
-              <a href="order-added.html">
+              <div class="order-box-menu">
                 <input
-                  class="order-button-orange"
+                  id="close"
+                  class="order-button-grey"
                   type="button"
-                  value="Select"
+                  value="Close the window"
                 />
-              </a>
+              </div>
             </div>
           </div>
         </div>

@@ -1,0 +1,85 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.first-column-container {
+  width: 419px;
+  height: 564px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 359px;
+  height: 38px;
+}
+
+.grey-button {
+  width: 172px;
+  height: 38px;
+  border: none;
+  border-radius: 6px;
+  background-color: #d9d9d9;
+  color: #64748b;
+}
+
+.orange-button {
+  width: 172px;
+  height: 38px;
+  border: none;
+  border-radius: 6px;
+  background-color: #fa6039;
+  color: #ffffff;
+}
+
+.center {
+  text-align: center;
+  height: 689px;
+}
+
+.login-image {
+  width: 400px;
+  height: 317px;
+}
+
+.second-column-container {
+  height: 689px;
+  background-color: #fa6039;
+  display: flex;
+  align-items: center;
+}
+
+.second-column-box {
+  margin: auto auto;
+}
+
+.text {
+  width: 451px;
+  height: 170px;
+  color: #ffffff;
+  font-family: "Sacramento";
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0;
+}
+
+.button {
+  width: 272px;
+  height: 48px;
+  background-color: #ffffff;
+  color: #fa6039;
+  border: none;
+  border-radius: 6px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
