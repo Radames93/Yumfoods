@@ -1,3 +1,21 @@
+.poppins-400 {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #212529;
+}
+
+.poppins-500 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.poppins-600 {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #000000;
+}
+
 .row {
   display: flex;
 }
@@ -41,6 +59,10 @@
 .center {
   text-align: center;
   height: 689px;
+}
+
+.centered {
+  text-align: center;
 }
 
 .login-image {
